@@ -21,7 +21,7 @@
       }
     },
     "staging": {
-      "owner": "ayushvrdhn"
+      "owner": "ayushvrdhn",
       "channel": "staging",
       "distribution": "internal",
       "pnpm": "9.12.3",
