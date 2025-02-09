@@ -34,7 +34,7 @@ jobs:
         id: calibre
         uses: calibreapp/image-actions@main
         with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          githubToken: ${{ secrets.REPO_GITHUB_TOKEN }}
           compressOnly: true
           ignorePaths: 'node_modules/**,ios/**,android/**'
 
